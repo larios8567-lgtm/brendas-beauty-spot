@@ -1,0 +1,8 @@
+{
+  "name": "brendas-beauty-spot",
+  "version": "1.0.0",
+  "description": "Brenda's Beauty Spot - Professional beauty services in Mendota, CA",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
