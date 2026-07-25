@@ -67,7 +67,7 @@ section { padding: 5rem 0; }
 
 
 /* ── HERO ── */
-.hero { height: 100vh; min-height: 650px; background: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url('images/brenda-selfie.JPG') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
+.hero { height: 100vh; min-height: 650px; background: linear-gradient(135deg, var(--charcoal) 0%, #555 50%, var(--taupe) 100%); display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
 .hero-content { max-width: 700px; padding: 0 2rem; }
 .hero-tagline { font-family: 'Montserrat', sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 4px; color: var(--gold-light); margin-bottom: 1.5rem; }
 .hero h1 { font-size: 4.2rem; color: var(--white); line-height: 1.15; margin-bottom: 1rem; }
@@ -82,6 +82,9 @@ section { padding: 5rem 0; }
 .about { background: var(--ivory); }
 .about-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 4rem; align-items: center; }
 .about-image img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-lg); aspect-ratio: 4/5; object-fit: cover; }
+.about-placeholder { width: 100%; border-radius: var(--radius); background: var(--beige); aspect-ratio: 4/5; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--taupe); gap: 0.5rem; }
+.about-placeholder i { font-size: 3rem; opacity: 0.5; }
+.about-placeholder span { font-size: 0.9rem; }
 .about-text h2 { text-align: left; margin-bottom: 1.2rem; }
 .about-text p { color: #555; margin-bottom: 1rem; font-size: 0.98rem; }
 .about-why { margin-top: 2rem; }
