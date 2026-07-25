@@ -67,7 +67,7 @@ section { padding: 5rem 0; }
 
 
 /* ── HERO ── */
-.hero { height: 100vh; min-height: 650px; background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/brenda-selfie.JPG') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
+.hero { height: 100vh; min-height: 650px; background: linear-gradient(135deg, var(--charcoal) 0%, #555 50%, var(--taupe) 100%); display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
 .hero-content { max-width: 700px; padding: 0 2rem; }
 .hero-tagline { font-family: 'Montserrat', sans-serif; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 4px; color: var(--gold-light); margin-bottom: 1.5rem; }
 .hero h1 { font-size: 4.2rem; color: var(--white); line-height: 1.15; margin-bottom: 1rem; }
