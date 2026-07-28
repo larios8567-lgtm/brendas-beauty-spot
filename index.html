@@ -149,35 +149,26 @@
   <div class="container">
     <h2>Before & After Gallery</h2>
     <p class="section-subtitle">Real results, real confidence</p>
-    <p style="text-align:center;color:var(--taupe);margin-bottom:2rem;">Visit our Setmore booking page to see our full portfolio of work for each service category.</p>
 
-    <div class="gallery-categories">
-      <div class="gallery-cat fade-in">
-        <div class="gallery-cat-header"><i class="fa-solid fa-scissors"></i> Hair</div>
-        <p>Beautiful cuts, blowouts, gloss treatments, and color transformations.</p>
-        <a href="https://brendalarios.setmore.com" class="gallery-link" target="_blank" rel="noopener">View Hair Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item" data-category="brows">
+        <img src="images/brow-lam-wax.jpg" alt="Brow Lamination + Wax" loading="lazy">
+        <div class="gallery-label">Brow Lamination + Wax</div>
       </div>
-      <div class="gallery-cat fade-in">
-        <div class="gallery-cat-header"><i class="fa-solid fa-eye"></i> Brows</div>
-        <p>Brow shaping, lamination, tinting, and PMU — precision at its finest.</p>
-        <a href="https://brendalarios.setmore.com" class="gallery-link" target="_blank" rel="noopener">View Brow Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+      <div class="gallery-item" data-category="brows">
+        <img src="images/brow-lam-wax-tint.jpg" alt="Brow Lamination + Wax & Tint" loading="lazy">
+        <div class="gallery-label">Brow Lamination + Wax & Tint</div>
       </div>
-      <div class="gallery-cat fade-in">
-        <div class="gallery-cat-header"><i class="fa-solid fa-paintbrush"></i> PMU</div>
-        <p>Permanent makeup artistry for effortless, long-lasting beauty.</p>
-        <a href="https://brendalarios.setmore.com" class="gallery-link" target="_blank" rel="noopener">View PMU Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+      <div class="gallery-item" data-category="hair">
+        <img src="images/cut-soft-waves.jpg" alt="Cut + Soft Waves" loading="lazy">
+        <div class="gallery-label">Cut + Soft Waves</div>
       </div>
-      <div class="gallery-cat fade-in">
-        <div class="gallery-cat-header"><i class="fa-solid fa-spa"></i> Waxing</div>
-        <p>Smooth, gentle full-body waxing with professional care and comfort.</p>
-        <a href="https://brendalarios.setmore.com" class="gallery-link" target="_blank" rel="noopener">View Waxing Portfolio <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-      <div class="gallery-cat fade-in">
-        <div class="gallery-cat-header"><i class="fa-solid fa-face-smile"></i> Facials</div>
-        <p>Advanced nano fusion treatments and rejuvenating facial services.</p>
-        <a href="https://brendalarios.setmore.com" class="gallery-link" target="_blank" rel="noopener">View Facial Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+      <div class="gallery-item" data-category="hair">
+        <img src="images/cut-style.jpg" alt="Cut + Style" loading="lazy">
+        <div class="gallery-label">Cut + Style</div>
       </div>
     </div>
+    <p style="text-align:center;margin-top:2rem;color:var(--taupe);">More photos coming soon! Visit <a href="https://brendalarios.setmore.com" target="_blank" rel="noopener" style="color:var(--gold);">Setmore</a> for our full portfolio.</p>
   </div>
 </section>
 
@@ -318,6 +309,12 @@
     <p>&copy; 2026 Brenda's Beauty Spot. All rights reserved.</p>
   </div>
 </footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="Gallery image">
+</div>
 
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
